@@ -30,18 +30,18 @@ const About = () => {
                   : "mt-4 text-xl text-justify text-white"
               }
             >
-              I'm a self-taught web developer and Mobile App Developer with
-              experience in designing new features from ideation to production,
-              implementation of wireframes and design flows into high
-              performance software applications. I take into consideration the
-              user experience while writing reusable and efficient code. I
-              passionately combine good design, technology, and innovation in
-              all my projects, which I like to accompany from the first idea to
-              release.Currently, I'm focused on the backend development.
+              "Hello and welcome! My name is Rohan Dable and I'm a Full Stack
+              Web Developer and Competitive Coder. I have a passion for building
+              beautiful, functional websites and applications that solve
+              real-world problems. With 2 years of academic experience in
+              the field, I have developed expertise in various programming
+              languages, including Javascript,python,c++, and have hands-on experience in
+              using various front-end and back-end frameworks.
+              I am constantly learning and exploring new
+              technologies to improve my skills and knowledge.
             </p>
           </motion.div>
-          <motion.div
-          >
+          <motion.div>
             <h4 className="mt-12 text-3xl font-semibold text-blue-500">
               Technologies and Tools
             </h4>

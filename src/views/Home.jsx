@@ -29,16 +29,16 @@ const Home = () => {
               <motion.span
                 className={darkMode ? "block text-black" : " text-white"}
               >
-                Hi, I am Aakash
+                Hi, I am Rohan
               </motion.span>
               <span className="block text-blue-500 z-0 lg:inline">
                 <Typical
                   steps={[
-                    "Front End Developer",
+                    "Full Stack Web Developer",
                     1000,
-                    "Full Stack Developer",
+                    "Backend Developer",
                     1000,
-                    "Mobile Developer",
+                    "Competitive Coder",
                     1000,
                   ]}
                   loop={Infinity}
@@ -52,8 +52,8 @@ const Home = () => {
                   : "mt-3 text-base text-white sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
               }
             >
-              I am a Front-End / Full-Stack Developer. I am currently working at
-              CloudStok Technologies as a Front-End Developer
+              I am Full-Stack Web Developer/Backend Developer and 3rd year
+              student in Airtificial Intelligence & Data science Domain
             </p>
             <div className="flex md:justify-start ">
               {contactLinks.map((el) => (
@@ -68,9 +68,15 @@ const Home = () => {
             </div>
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
               <div className="mt-3 sm:mt-0 cursor-pointer w-1/2">
-                <Link className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-200 md:py-4 md:text-lg md:px-10">
+                <a
+                  href="https://drive.google.com/file/d/1nIFWdEG0u0gmLS3XI4P7kRHjRCtK3fk9/view?usp=share_link"
+                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 md:py-4 md:text-lg md:px-10 hover:bg-blue-600 hover:shadow-lg transition duration-300 ease-in-out relative"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Resume
-                </Link>
+                  <span className="glow" />
+                </a>
               </div>
             </div>
           </div>
